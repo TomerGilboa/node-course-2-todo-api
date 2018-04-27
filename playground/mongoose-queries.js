@@ -31,6 +31,7 @@ Todo.findById(id).then((todo) => {
     console.log('Todo By Id', todo);
 }).catch((e) => console.log(e));
 
+
 // User.findByID
 let userId = '5ae08acb625a1e0b6137d810';
 
@@ -40,9 +41,3 @@ User.findById(userId).then((user) => {
     }
     console.log('User By Id', user);
 }).catch((e) => console.log(e));
-
-// User not found
-
-// User was found
-
-// ID not valid
